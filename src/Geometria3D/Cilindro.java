@@ -16,18 +16,23 @@ public class Cilindro {
     public Cilindro() {
         System.out.println("Ingrese el radio deL CILINDRO: ");
         r = entrada.nextDouble();
-        System.out.println("Ingrese el radio de la CILINDRO: ");
+        System.out.println("Ingrese la altura de la CILINDRO: ");
         h = entrada.nextDouble();
     }
 
     //METODOS
-    public double calVolumen(Cilindro datos){
-        datos.setResultado(NPi* Math.pow(r,3)*h);
+    public double calVolumen(Cilindro figura3dC){
+        figura3dC.setResultado(NPi* Math.pow(r,2)*h);
         // Math pi * math.pow(r,2);
         return resultado;
     }
-    public double caldiametro(Cilindro datos){
-        datos.setResultado(2*r);
+    public double calAreaLateral(Cilindro figura3dC){
+        figura3dC.setResultado(2*NPi*r*h);
+        return resultado;
+    }
+
+    public double calAreaTotal(Cilindro figura3dC){
+        figura3dC.setResultado(2*NPi*r*(r+h));
         return resultado;
     }
 
@@ -36,8 +41,4 @@ public class Cilindro {
         this.resultado = resultado;
     }
 
-    //GETTER
-    public double getResultado() {
-        return resultado;
-    }
 }
