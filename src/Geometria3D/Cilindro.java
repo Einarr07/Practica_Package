@@ -1,7 +1,6 @@
 package Geometria3D;
 
 import java.util.Scanner;
-import java.math.MathContext;
 
 public class Cilindro {
     //ESTUDIAR HERENCIA
@@ -14,9 +13,9 @@ public class Cilindro {
     Scanner entrada = new Scanner(System.in);
     //CONTRUCTOR
     public Cilindro() {
-        System.out.println("Ingrese el radio deL CILINDRO: ");
+        System.out.println("Ingrese el radio del CILINDRO: ");
         r = entrada.nextDouble();
-        System.out.println("Ingrese la altura de la CILINDRO: ");
+        System.out.println("Ingrese la altura dek CILINDRO: ");
         h = entrada.nextDouble();
     }
 
