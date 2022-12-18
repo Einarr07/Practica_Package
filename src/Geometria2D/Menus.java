@@ -6,9 +6,9 @@ public class Menus {
     public int menu() {
         int op = -1;
         while ((op < 0) || (op > 4)) {
-            System.out.println("------------------------------------------------");
-            System.out.println("| BIENVENIDO AL CALCULO DE FIGURAS GEOMETRICAS |");
-            System.out.println("------------------------------------------------");
+            System.out.println("-------------------------------------------------");
+            System.out.println("| BIENVENIDO AL CALCULO DE FIGURAS GEOMETRICAS 2D|");
+            System.out.println("-------------------------------------------------");
             System.out.println("---------------------------------------------");
             System.out.println("|     1.- CALCULAR EL AREA                  |");
             System.out.println("|                                           |");
